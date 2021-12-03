@@ -11,8 +11,8 @@ win = visual.Window([800,600], fullscr=False, monitor="testMonitor")
 grating = psychopy.visual.GratingStim(win, units='cm', size=[5,5], tex='sin', pos=(0,5))
 
 
-rectangle1 = psychopy.visual.rect.Rect(win, units ='cm', fillColor='white', fillColorSpace=None, pos=(-7.5, -2), size=[5,5], ori=0.0, opacity=None, contrast=1.0, colorSpace='rgb')
-rectangle2 = psychopy.visual.rect.Rect(win, units ='cm', fillColor='red', fillColorSpace=None, pos=(-2.5, -2), size=[5,5], ori=0.0, opacity=None, contrast=1.0, colorSpace='rgb')
+rectangle1 = psychopy.visual.rect.Rect(win, units ='cm', fillColor=[105,105,105], fillColorSpace=None, pos=(-7.5, -2), size=[5,5], ori=0.0, opacity=None, contrast=1.0, colorSpace='rgb255')
+rectangle2 = psychopy.visual.rect.Rect(win, units ='cm', fillColor=[106,106,106], fillColorSpace=None, pos=(-2.5, -2), size=[5,5], ori=0.0, opacity=None, contrast=1.0, colorSpace='rgb255')
 rectangle3 = psychopy.visual.rect.Rect(win, units ='cm', fillColor='black', fillColorSpace=None, pos=(2.5, -2), size=[5,5], ori=0.0, opacity=None, contrast=1.0, colorSpace='rgb')
 rectangle4 = psychopy.visual.rect.Rect(win, units ='cm', fillColor='blue', fillColorSpace=None, pos=(7.5, -2), size=[5,5], ori=0.0, opacity=None, contrast=1.0, colorSpace='rgb')
 
